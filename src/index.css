@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body{
+    @apply m-0 p-0 box-border h-full w-full
+}
+
+ 
+ @layer components{
+    li{
+        @apply px-5 font-semibold text-xl text-white
+    }
+    button{
+        @apply px-7 justify-center items-center py-2 bg-purple-500  rounded-2xl 
+    }
+ }
+ 
